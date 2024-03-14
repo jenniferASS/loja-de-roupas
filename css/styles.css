@@ -1,0 +1,27 @@
+/* Estilizando o contêiner */
+.container {
+    width: 80%;
+    /* Largura do contêiner */
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
+    text-align: center;
+    /* Alinha o texto centralmente */
+    font-family: Arial, sans-serif;
+    /* Define a fonte do texto */
+}
+
+/* Estilizando o cabeçalho (h1) */
+h1 {
+    color: #333;
+    /* Cor do texto */
+}
+
+/* Estilizando o parágrafo (p) */
+p {
+    color: #666;
+    /* Cor do texto */
+    font-size: 18px;
+    /* Tamanho da fonte */
+    line-height: 1.6;
+    /* Espaçamento entre linhas */
+}
