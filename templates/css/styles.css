@@ -25,3 +25,55 @@ p {
     line-height: 1.6;
     /* Espaçamento entre linhas */
 }
+
+/* Estilizando o Menu (header) */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+a:hover {
+    opacity: 0,7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    background: #23232e;
+    height: 8vh;
+}
+
+main {
+    background: url("bg.jpg") no-repeat
+    center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    
+}
